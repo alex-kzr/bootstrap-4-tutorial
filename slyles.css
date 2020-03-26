@@ -1,7 +1,16 @@
 .container{
-    background: skyblue;
+    background: lightblue;
 }
 
-.container-fluid{
+.row:nth-child(2){
+    background: lightcoral;
+}
+
+.row:last-child{
     background: yellow;
+}
+
+.row div{
+    padding: 20px 10px;
+    border: 1px solid;
 }
